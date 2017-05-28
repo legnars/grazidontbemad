@@ -1,0 +1,27 @@
+﻿<md-sidenav-container fxLayout="column" class="m2app-dark">
+
+  <md-sidenav #sidenav mode="side" class="app-sidenav">
+    Sidenav
+  </md-sidenav>
+
+  <md-toolbar color="primary">
+    <button class="app-icon-button" (click)="sidenav.toggle()">
+      <i class="material-icons app-toolbar-menu">menu</i>
+    </button>
+
+    Angular Material2 Example App
+
+    <span class="app-toolbar-filler"></span>
+  </md-toolbar>
+
+  <div class="app-content">
+
+    <md-card class="app-input-section">
+      <md-input-container>
+        <input mdInput placeholder="Teste">
+      </md-input-container>
+    </md-card>
+
+  </div>
+
+</md-sidenav-container>
